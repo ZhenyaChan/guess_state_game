@@ -31,18 +31,3 @@ while len(guessed_states) < 50:
         y = data[data.state == answer_state].y.iloc[0]
         new_state.goto(x, y)
         new_state.write(answer_state)
-
-
-# data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
-#
-# grey_count = len(data[data["Primary Fur Color"] == "Gray"])
-# cinnamon_count = len(data[data["Primary Fur Color"] == "Cinnamon"])
-# black_count = len(data[data["Primary Fur Color"] == "Black"])
-#
-# data_dict = {
-#     "Fur Color": ["Gray", "Cinnamon", "Black"],
-#     "Count": [grey_count, cinnamon_count, black_count]
-# }
-#
-# df = pandas.DataFrame(data_dict)
-# df.to_csv("squirrel_count.csv")
