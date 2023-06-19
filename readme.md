@@ -11,4 +11,4 @@
 2. Add the folder to workplace area in your VS Code and open terminal OR navigate to the created folder using terminal
 3. Download the project .zip file OR Enter to the terminal:
    `git clone https://github.com/ZhenyaChan/guess_state_game.git`
-4. Run the code by entering `python -u "./main.py`
+4. Run the code by entering in the terminal `python3 "./main.py`
